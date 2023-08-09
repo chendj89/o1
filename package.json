@@ -1,0 +1,29 @@
+{
+  "name": "example-vue-router",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "rimraf dev-dist && DEBUG=vite-plugin-pwa SW_DEV=true vite --force",
+    "build": "vite build",
+    "start-preview": "vite preview --port=4173"
+   
+  },
+  "dependencies": {
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vueuse/core": "^9.6.0",
+    "debugs": "^1.0.11",
+    "https-localhost": "^4.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^5.0.4",
+    "vite": "^4.0.0",
+    "vite-plugin-pwa": "^0.16.4",
+    "workbox-core": "^7.0.0",
+    "workbox-precaching": "^7.0.0",
+    "workbox-routing": "^7.0.0",
+    "workbox-window": "^7.0.0"
+  }
+}
